@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "frameworks":"Frameworks",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+    
+  },
+  "Name": "Anthony O.",
+  "home": {
+    "welcome": "Bonjour, je suis Anthony",
+    "subText": "Et je suis développeur Frontend",
+    "Tools": "React.js | TailWind | JavaScript | TypeScript | HTML | CSS",
+    "intro": "Je suis spécialisé dans la création de sites web dynamiques et réactifs. Transformer des idées en expériences interactives avec React & Tailwind, CSS — en concevant des designs fluides, des interactions harmonieuses et des expériences modernes qui donnent vraiment vie à vos idées."
+  },
+
+  "about": {
+    "title": "À propos de moi",
+    "description": "Avec plus de 3 ans d’expérience en développement frontend, je me spécialise dans la création d’applications web réactives, interactives et visuellement attrayantes. Je me concentre sur la performance, l’accessibilité et les animations modernes afin d’offrir des expériences conviviales qui donnent vie aux idées."
+  },
+  "frameworks": {
+  "title": "Frameworks",
+
+  "Framework1": "React.js",
+  "descFramework1": "Une bibliothèque JavaScript puissante pour créer des interfaces utilisateur rapides, interactives et basées sur des composants.",
+
+  "Framework2": "Tailwind CSS",
+  "descFramework2": "Un framework CSS utilitaire qui permet de créer des designs modernes et réactifs avec des classes simples et réutilisables.",
+
+  "Framework3": "Framer Motion",
+  "descFramework3": "Une bibliothèque d’animations pour React qui simplifie l’ajout d’animations fluides, interactives et prêtes pour la production."
+},
+
+"projects": {
+  "title": "Projets",
+ "description": "Voici quelques projets que j’ai réalisés !!",
+
+  "Project1": "Safepazz",
+  "P1description": "Développement du tableau de bord SafePazz, utilisé par les résidences et organisations pour réguler et documenter les activités des occupants, employés et visiteurs.",
+
+  "Project2": "HarmonyPortal",
+  "P2description": "Création du tableau de bord Harmony Portal, permettant aux investisseurs de commercialiser et de gérer des biens immobiliers.",
+
+  "Project3": "ATL Store",
+  "P3description": "Une application CRUD/e-commerce hébergée sur Firebase."
+},
+
+ 
+  "contact": {
+    "title": "Contactez-moi",
+    "description": "N’hésitez pas à me contacter pour des collaborations ou des opportunités.",
+    "email": "Orjidalu@gmail.com",
+    "phone": "+234 902 481 6383" 
+  },
+  "footer": {
+    "text": "© 2024 Tony.DEV Tous droits réservés."
+  } 
+}
