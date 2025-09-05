@@ -3,8 +3,6 @@ import { motion, type Variants } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 
-
-// Animation Variants
 const container :Variants= {
   hidden: { opacity: 0, y: 30 },
   visible: {
@@ -31,7 +29,7 @@ export const ContactPage = () => {
       id="contact"
       className="relative flex flex-col items-center justify-center min-h-screen px-6 text-[var(--color-Text)]"
     >
-      {/* Section Wrapper */}
+
       <motion.div
         className="w-full max-w-4xl bg-[var(--main-background)] 
         backdrop-blur-sm rounded-2xl  flex flex-col items-center 

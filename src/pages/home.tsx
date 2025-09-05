@@ -8,9 +8,9 @@ export const HomePage = () => {
     <div>
       <motion.div
         className="w-full min-h-[500px] h-screen max-h-[1000px] bg-[var(--main-background)] text-[var(--color-Text)] backdrop-blur-sm flex flex-col items-start text-center p-8"
-        initial={{ opacity: 0, y: 50 }} // start hidden & slightly down
-        whileInView={{ opacity: 1, y: 0 }} // animate when in view
-        viewport={{ once: true, amount: 0.3 }} // trigger only once when 30% visible
+        initial={{ opacity: 0, y: 50 }} 
+        whileInView={{ opacity: 1, y: 0 }} 
+        viewport={{ once: true, amount: 0.3 }} 
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         {/* Text Section */}
@@ -23,7 +23,7 @@ export const HomePage = () => {
         >
           <h2 className="text-4xl font-bold">{t("home.welcome")}</h2>
           <p className="text-xl font-semibold">{t("home.subText")}</p>
-          {/* <p>{t("home.intro")}</p> */}
+       
         </motion.div>
 
         {/* Image Section */}
@@ -38,6 +38,23 @@ export const HomePage = () => {
             <img src="./Laptop-II.jpg" alt="work Space" />
           </div>
         </motion.div>
+
+         <motion.div
+          className="flex w-full gap-6 justify-center pt-20"
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x:0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, delay: 0.6 }}
+        >
+         <a href="/resume.pdf" download="My_Resume.pdf">
+         <button className="px-4 py-2 bg-gray-400 text-white rounded-lg hover:bg-gray-600 transition">
+            Download Resume
+        </button>
+       </a>
+
+        </motion.div>
+
+
       </motion.div>
     </div>
   );
