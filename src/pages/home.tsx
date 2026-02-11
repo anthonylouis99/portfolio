@@ -75,6 +75,7 @@ const item = {
                   <img
                     src="./TonyImage.jpeg"
                     alt="Photo"
+                    loading="lazy"
                     className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"
                   />
                 </motion.div>
