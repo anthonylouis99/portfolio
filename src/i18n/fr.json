@@ -11,7 +11,7 @@
   "Name": "Anthony O.",
   "home": {
     "welcome": "Bonjour, je suis Anthony",
-    "subText": "Et je suis développeur Frontend",
+    "subText": "Et je suis développeur Web",
     "Tools": "React.js | TailWind | JavaScript | TypeScript | HTML | CSS",
     "intro": "Je suis spécialisé dans la création de sites web dynamiques et réactifs. Transformer des idées en expériences interactives avec React & Tailwind, CSS — en concevant des designs fluides, des interactions harmonieuses et des expériences modernes qui donnent vraiment vie à vos idées."
   },
@@ -44,7 +44,11 @@
   "P2description": "Création du tableau de bord Harmony Portal, permettant aux investisseurs de commercialiser et de gérer des biens immobiliers.",
 
   "Project3": "ATL Store",
-  "P3description": "Une application CRUD/e-commerce hébergée sur Firebase."
+  "P3description": "Une application CRUD/e-commerce hébergée sur Firebase.",
+"links": {
+    "text": "Cliquez pour voir"
+    
+  }
 },
 
  

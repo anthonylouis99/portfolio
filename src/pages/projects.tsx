@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import ServiceCard from "../components/cards/cards";
-import { GiSecurityGate } from "react-icons/gi";
-import { HouseIcon,ShoppingCart } from "lucide-react";
+// import ServiceCard from "../components/cards/cards";
+// import { GiSecurityGate } from "react-icons/gi";
+// import { HouseIcon,ShoppingCart } from "lucide-react";
 import {  motion, type Variants } from "framer-motion";
 import { easeOut } from "framer-motion"; 
 
@@ -45,47 +45,92 @@ export const Projects=() => {
 
       {/* Cards */}
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 max-w-5xl mx-auto"
         variants={container}
       >
-        {[
-  {
-    title: t("projects.Project1"),
-    ref:"https://safepazz.com/",
-    desc: t("projects.P1description"),
-    icon: <GiSecurityGate />,
-  },
-  {
-    title: t("projects.Project2"),
-    //  ref:"https://harmony-portal-zeta.vercel.app/dashboard",
-    desc: t("projects.P2description"),
-    icon: <HouseIcon />,
-  },
-  {
-    title:t("projects.Project3"),
-     ref:"https://atl-store-82c99.web.app/signIn",
-    desc: t("projects.P3description"),
-    icon: <ShoppingCart />,
-  },
-]
-.map((service, idx) => (
+  
+<a href="https://safepazz.com/" target="_blank" rel="noopener noreferrer">
           <motion.div
-            key={idx}
             variants={item}
             whileHover={{ scale: 1.05 }}
     
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
-            className="cursor-pointer"
+            className="cursor-pointer flex flex-col gap-2"
           >
-            <ServiceCard
-              isLink={true}
-              ref={service.ref}
-              title={service.title}
-              description={service.desc}
-              icon={service.icon}
-            />
+            <motion.div>
+         <img src="/safepazz.png" alt="Project 1" className="w-full h-48 object-cover rounded-lg shadow-md" />
           </motion.div>
-        ))}
+           <p>{t("projects.links.text")} Safepazz dashboard</p>
+          </motion.div>
+          </a>
+        {/* ))} */}
+
+<a href="https://atl-store-82c99.web.app/signIn" target="_blank" rel="noopener noreferrer">
+          <motion.div
+          
+            variants={item}
+            whileHover={{ scale: 1.05 }}
+    
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            className="cursor-pointer flex flex-col gap-2"
+          >
+            <motion.div>
+         <img src="/atldash.png" alt="Project 2" className="w-full h-48 object-cover rounded-lg shadow-md" />
+      
+          </motion.div>
+        <p>{t("projects.links.text")} ATL Store Dashboard</p>
+          </motion.div>
+</a>
+
+
+<a href="https://smart-save-a659c.web.app" target="_blank" rel="noopener noreferrer">
+            <motion.div
+            variants={item}
+            whileHover={{ scale: 1.05 }}
+    
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            className="cursor-pointer flex flex-col gap-2"
+          >
+            <motion.div  >
+         <img src="/SSdash.png" alt="Project 3" className="w-full h-48 object-cover rounded-lg shadow-md" />
+          </motion.div>
+           <p>{t("projects.links.text")} Smartsave Dashboard</p>
+          </motion.div>
+          </a>
+
+
+
+         <a href="https://www.zetabyte.studio" target="_blank" rel="noopener noreferrer">
+            <motion.div
+            variants={item}
+            whileHover={{ scale: 1.05 }}
+    
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            className="cursor-pointer flex flex-col gap-2"
+          >
+          <motion.div>
+         <img src="/zetalanding.png" alt="Project 5" className="w-full h-48 object-cover rounded-lg shadow-md" />
+          </motion.div>
+            <p>{t("projects.links.text")}Zetabyte Landing Page</p>
+          </motion.div>
+</a>
+
+{/* 
+<a href="https://smart-save-a659c.web.app/dashboard" target="_blank" rel="noopener noreferrer">
+             <motion.div
+            variants={item}
+            whileHover={{ scale: 1.05 }}
+    
+            transition={{ type: "spring", stiffness: 300, damping: 15 }}
+            className="cursor-pointer  flex flex-col gap-2"
+          >
+            <motion.div>
+         <img src="/SSgraph.png" alt="Project 5" className="w-full h-48 object-cover rounded-lg shadow-md" />
+          </motion.div>
+            <p>{t("projects.links.text")} Smarsave Dashboard</p>
+          </motion.div>
+          </a> */}
+
       </motion.div>
     </motion.div>
   );

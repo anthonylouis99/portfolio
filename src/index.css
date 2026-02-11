@@ -70,8 +70,8 @@ background: hsla(228, 17%, 53%, 1);
 }
 
 .mainBackground{
-  /* background:var(--main-background); */
-  background: var(--second-main-bg)
+  background:var(--main-background);
+  /* background: var(--second-main-bg) */
 
 }
 

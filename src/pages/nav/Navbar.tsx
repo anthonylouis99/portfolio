@@ -5,11 +5,11 @@ import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react"; // hamburger and close icons
 
 type NavbarProps = {
-  onNavigate: (section: "home" | "about" | "frameworks" | "contact" | "projects") => void;
+  onNavigate: (section: "home"  | "contact" | "projects") => void;
   activeSection: string;
 };
 
-const navItems = ["home", "about", "frameworks", "projects", "contact"];
+const navItems = ["home", "projects", "contact"];
 
 export default function Navbar({ onNavigate, activeSection }: NavbarProps) {
   const [active, setActive] = useState("home");

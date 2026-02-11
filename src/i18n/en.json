@@ -10,7 +10,7 @@
   "Name": "Anthony O.",
   "home": {
     "welcome": "Hello, Anthony here",
-    "subText":"And I'm a frontend Developer",
+    "subText":"And I'm a Web Developer",
     "Tools":"React.js | TailWind | JavaScript | TypeScript | HTML | CSS",
     "intro": "I specialize in building dynamic, responsive websites.Turning ideas into interactive experiences with React & Tailwind, CSS—crafting seamless designs, smooth interactions, and modern experiences that truly bring your ideas to life."
   },
@@ -36,7 +36,7 @@
 
 "projects": {
   "title": "Projects",
-   "description":"Here are some of the works i've completed!!",
+   "description":"Here are some of my live projects!!",
   "Project1": "Safepazz",
   "P1description": "Built the SafePazz Dashboard, used by estates and organizations to secure, regulate and document the activities of occupants, employees, and visitors.",
 
@@ -44,7 +44,12 @@
   "P2description": "Developed the Harmony Portal Dashboard, enabling investors to market and manage properties effectively.",
 
   "Project3": "ATL Store",
-  "P3description": "This is a simple and personal project of mine, its a CRUD/e-commerce application hosted on Firebase."
+  "P3description": "This is a simple and personal project of mine, its a CRUD/e-commerce application hosted on Firebase.",
+
+  "links": {
+    "text": "Click to view"
+    
+  }
 },
 
  
@@ -55,6 +60,6 @@
     "phone":" +234 902 481 6383" 
   },
   "footer": {
-    "text": "© 2024 Tony.DEV All rights reserved."
+    "text": "© 2024 Tony.dev All rights reserved."
   } 
 }

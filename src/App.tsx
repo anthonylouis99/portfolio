@@ -1,8 +1,8 @@
 import { HomePage } from './pages/home'
-import { AboutPage } from './pages/about'
+// import { AboutPage } from './pages/about'
 import { ContactPage } from './pages/contact'
 import { Footer } from './pages/footer';
-import { Frameworks } from './pages/freameWorks';
+// import { Frameworks } from './pages/freameWorks';
 import { Projects } from './pages/projects';
 import Navbar from './pages/nav/Navbar';
   import { useRef,useEffect,useState } from "react";
@@ -12,12 +12,8 @@ import './App.css'
 
 
 function App() {
-
-
-
-
 const homeRef = useRef<HTMLDivElement>(null);
-const aboutRef = useRef<HTMLDivElement>(null);
+// const aboutRef = useRef<HTMLDivElement>(null);
 const frameworksRef = useRef<HTMLDivElement>(null);
 const contactRef = useRef<HTMLDivElement>(null);
 const projectsRef = useRef<HTMLDivElement>(null);
@@ -37,7 +33,6 @@ useEffect(() => {
   useEffect(() => {
     const sections = [
       { id: "home", ref: homeRef },
-      { id: "about", ref: aboutRef },
       { id: "frameworks", ref: frameworksRef },
       { id: "contact", ref: contactRef },
       { id: "projects", ref:projectsRef}
@@ -81,8 +76,7 @@ useEffect(() => {
    activeSection={activeSection}
           onNavigate={(section) => {
           if (section === "home") scrollToSection(homeRef);
-          if (section === "about") scrollToSection(aboutRef);
-          if (section === "frameworks") scrollToSection(frameworksRef);
+          // if (section === "about") scrollToSection(aboutRef);
           if (section === "contact") scrollToSection(contactRef);
           if (section === "projects") scrollToSection(projectsRef);
         }}
@@ -94,10 +88,7 @@ useEffect(() => {
     <div className=" w-full max-w-[1700px] flex-1 bg-[var(--content-bg)] ">
       <section ref={homeRef} id="home"><HomePage /></section>
       <Liner/>
-      <section ref={aboutRef} id="about"><AboutPage /></section>
-      <Liner/>
-      <section ref={frameworksRef}   id="frameworks"><Frameworks/></section>
-      <Liner/>
+      {/* <section ref={aboutRef} id="about"><AboutPage /></section> */}
         <section ref={projectsRef}   id="projects"><Projects/></section>
       <Liner/>
       <section ref={contactRef}   id="contact"><ContactPage /></section>
