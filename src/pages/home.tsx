@@ -73,7 +73,7 @@ const item = {
                   className="h-48 w-48 md:h-60 md:w-60 overflow-hidden rounded-full border border-[var(--primary)] flex-shrink-0 shadow-lg"
                 >
                   <img
-                    src="./TonyImage.jpeg"
+                    src="./TonyImage2.webp"
                     alt="Photo"
                     loading="lazy"
                     className="object-cover w-full h-full hover:scale-105 transition-transform duration-500"

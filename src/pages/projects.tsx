@@ -58,7 +58,7 @@ export const Projects=() => {
             className="cursor-pointer flex flex-col gap-2"
           >
             <motion.div>
-         <img src="/safepazz.png" alt="Project 1" className="w-full h-48 object-cover rounded-lg shadow-md" />
+         <img src="/safepazzNew.webp" alt="Project 1" className="w-full h-48 object-cover rounded-lg shadow-md" />
           </motion.div>
            <p>{t("projects.links.text")} Safepazz dashboard</p>
           </motion.div>
@@ -75,7 +75,7 @@ export const Projects=() => {
             className="cursor-pointer flex flex-col gap-2"
           >
             <motion.div>
-         <img src="/atldash.png" alt="Project 2" className="w-full h-48 object-cover rounded-lg shadow-md" />
+         <img src="/atldash.webp" alt="Project 2" className="w-full h-48 object-cover rounded-lg shadow-md" />
       
           </motion.div>
         <p>{t("projects.links.text")} ATL Store Dashboard</p>
@@ -92,7 +92,7 @@ export const Projects=() => {
             className="cursor-pointer flex flex-col gap-2"
           >
             <motion.div  >
-         <img src="/SSdash.png" alt="Project 3" className="w-full h-48 object-cover rounded-lg shadow-md" />
+         <img src="/SSlogin.webp" alt="Project 3" className="w-full h-48 object-cover rounded-lg shadow-md" />
           </motion.div>
            <p>{t("projects.links.text")} Smartsave Dashboard</p>
           </motion.div>
@@ -109,7 +109,7 @@ export const Projects=() => {
             className="cursor-pointer flex flex-col gap-2"
           >
           <motion.div>
-         <img src="/zetalanding.png" alt="Project 5" className="w-full h-48 object-cover rounded-lg shadow-md" />
+         <img src="/zetalanding.webp" alt="Project 5" className="w-full h-48 object-cover rounded-lg shadow-md" />
           </motion.div>
             <p>{t("projects.links.text")}Zetabyte Landing Page</p>
           </motion.div>
